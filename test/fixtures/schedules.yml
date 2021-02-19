@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  teacher: one
+  subject: MyString
+  description: MyString
+  time_from: 2021-02-17 16:15:18
+  time_to: 2021-02-17 16:15:18
+  day: MyString
+
+two:
+  teacher: two
+  subject: MyString
+  description: MyString
+  time_from: 2021-02-17 16:15:18
+  time_to: 2021-02-17 16:15:18
+  day: MyString

@@ -1,0 +1,2 @@
+module TeachersBackoffice::WelcomeHelper
+end

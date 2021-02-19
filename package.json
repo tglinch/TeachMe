@@ -1,0 +1,9 @@
+{
+  "name": "teache_me",
+  "private": true,
+  "dependencies": {},
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Thiago Linch <thglinchin18@gmail.com>",
+  "license": "MIT"
+}
