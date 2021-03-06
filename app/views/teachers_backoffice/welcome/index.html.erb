@@ -25,12 +25,12 @@
                     </tr>
                 </thead>
                 <tbody>
-                <% @schedule_teacher do %>
+                <% @schedule_teacher do |schedule|%>
                     <tr>
-                        <td><%= @schedule_teacher.teacher.id %></td>
-                        <td><%= @schedule_teacher.teacher.email %></td>
-                        <td><%= @schedule_teacher.subject %></td>
-                        <td><%= @schedule_teacher.day %></td>
+                        <td><%= schedule.teacher.id %></td>
+                        <td><%= schedule.teacher.email %></td>
+                        <td><%= schedule.subject %></td>
+                        <td><%= schedule.day %></td>
                     </tr>
                 <% end %>
                 </tbody>

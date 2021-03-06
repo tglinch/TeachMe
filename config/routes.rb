@@ -10,5 +10,5 @@ Rails.application.routes.draw do
   devise_for :teachers
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
-  get 'proffy', to: 'teachers_backoffice/welcome#index'
+ root to: 'teachers_backoffice/welcome#index'
 end
